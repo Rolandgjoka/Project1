@@ -16,26 +16,6 @@ function meal1() {
         let image1 = m1.strMealThumb
         let instructions = m1.strInstructions
         let youtube1 = m1.strYoutube
-            // let recipes1 = `${m1.strMeasure1} ${m1.strIngredient1}</br>
-            // ${m1.strMeasure2} ${m1.strIngredient2}</br>
-            // ${m1.strMeasure3} ${m1.strIngredient3}</br>
-            // ${m1.strMeasure4} ${m1.strIngredient4}</br>
-            // ${m1.strMeasure5} ${m1.strIngredient5}</br>
-            // ${m1.strMeasure6} ${m1.strIngredient6}</br>
-            // ${m1.strMeasure7} ${m1.strIngredient7}</br>
-            // ${m1.strMeasure8} ${m1.strIngredient8}</br>
-            // ${m1.strMeasure9} ${m1.strIngredient9}</br>
-            // ${m1.strMeasure10} ${m1.strIngredient10}</br>
-            // ${m1.strMeasure11} ${m1.strIngredient11}</br>
-            // ${m1.strMeasure12} ${m1.strIngredient12}</br>
-            // ${m1.strMeasure13} ${m1.strIngredient13}</br>
-            // ${m1.strMeasure14} ${m1.strIngredient14}</br>
-            // ${m1.strMeasure15} ${m1.strIngredient15}</br>
-            // ${m1.strMeasure16} ${m1.strIngredient16}</br>
-            // ${m1.strMeasure17} ${m1.strIngredient17}</br>
-            // ${m1.strMeasure18} ${m1.strIngredient18}</br>
-            // ${m1.strMeasure19} ${m1.strIngredient19}</br>
-            // ${m1.strMeasure20} ${m1.strIngredient20}</br>`
 
         let recipes2 = ""
         let recipesfix = ""
