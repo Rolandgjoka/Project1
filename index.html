@@ -5,11 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 </head>
 
 <body>
+    <body>
 
-</body>
-<script src="script.js"></script>
+        <div class="container">
+         <div class="row">
+          <div class="col">
+           <!--<img src="./img/ejoka-logo.png" class="d-block mx-auto" alt="">-->
+           <div class="feedback alert alert-danger text-center text-capitalize">please enter city</div>
+           <form id="searchForm" class="my-4">
+            <!-- form group -->
+            <div class="form-group my-3">
+             <select class="custom-select text-capitalize" id="searchCategory">
+       
+       
+             </select>
+            </div>
+            <!-- end of form group -->
+       
+            <!-- input group -->
+            <div class="input-group">
+             <input type="text" class="form-control text-capitalize" id="searchCity" placeholder="enter city....">
+             <div class="input-group-append">
+              <button type="submit" class="btn redBtn text-capitalize">search</button>
+             </div>
+            </div>
+            <!-- input group -->
+       
+       
+           </form>
+       
+          <!-- <img src="./img/loader.gif" class="loader" alt="">-->
+          </div>
+         </div>
+        </div>
+        <!-- restaurant section -->
+       
+        <section class="py-5">
+         <div class="container">
+          <div class="row" id="restaurant-list">
+           <!-- item -->
+           
+       
+            <!-- item -->
+       
+           </div>
+          </div>
+        </section>
+       
+       
+       
+       
+        <script src="script.js"></script>
+       </body>
+       
+       </html>
 
-</html>
