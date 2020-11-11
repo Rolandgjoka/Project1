@@ -1,0 +1,1 @@
+The page will start by using “Flip Coin” to help decide if they should stay home and cook or dine out. If you choose to stay home, you will be given random cuisine recipes to choose from. If you choose to dine out, you will be able to look for restaurants within your location along with map information for commute.
