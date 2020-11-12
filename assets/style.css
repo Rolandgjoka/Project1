@@ -1,4 +1,3 @@
-
 #coin {
     position: relative;
     margin: 0 auto;
@@ -83,4 +82,10 @@
         -moz-transform: rotateY(1980deg);
         transform: rotateY(1980deg);
     }
+}
+
+body {
+    background-image: url("https://i.stack.imgur.com/RLQNm.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
