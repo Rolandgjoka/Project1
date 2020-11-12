@@ -3,26 +3,20 @@ let coinRes = ""
 jQuery(document).ready(function($) {
 
     $('#coin').on('click', function() {
-        coinResult();
-
+        var flipResult = Math.random();
         $('#coin').removeClass();
         setTimeout(function() {
-            if (coinRes === "Heads") {
+            if (flipResult <= 0.5) {
                 $('#coin').addClass('heads');
-                console.log(coinRes);
                 meal1();
-
             } else {
                 $('#coin').addClass('tails');
-                console.log(coinRes);
-                renderRest()
-
+                renderRest();
             }
         }, 100);
-
     });
-
 });
+
 
 
 function coinResult() {
