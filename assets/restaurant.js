@@ -13,7 +13,7 @@ let ratingColor;
 
 
 function onPositionReceived(position) {
-    console.log(position);
+
     lat = position.coords.latitude;
     lng = position.coords.longitude;
 
@@ -21,16 +21,8 @@ function onPositionReceived(position) {
 }
 
 function locationNotReceived(positionError) {
-    console.log(positionError);
+
 }
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(onPositionReceived, locationNotReceived);
 }
-
-
-
-// function getRestaurant() {
-
-
-
-// }
