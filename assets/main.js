@@ -62,7 +62,7 @@ function renderRest() {
                 <p>${restAddress}</p>
                 <p>${restHours}</p>
                 <p><a id="icon" href="tel:${restPhone}">${restPhone}<a/></p>
-                <p><a href="${restMenu}">Menu</a></p>
+                <p><a href="${restMenu}" target="_blank">Menu</a></p>
                 </div>
                 </div>`
         );
