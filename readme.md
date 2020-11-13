@@ -1,6 +1,6 @@
 # Cook or Dine
-- Repository link: https://github.com/greysonkirk/Portfolio/
-- Web App link: https://greysonkirk.github.io/Portfolio/
+- Repository link: https://github.com/greysonkirk/Project1
+- Web App link: https://greysonkirk.github.io/Project1/
 
 
 
