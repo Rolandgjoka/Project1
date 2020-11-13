@@ -21,7 +21,6 @@ jQuery(document).ready(function($) {
 
 function coinResult() {
     $.ajax({ url: `https://flipacoinapi.com/json`, type: "GET" }).then(function(data) {
-        console.log(data)
         coinRes = data
     });
 
